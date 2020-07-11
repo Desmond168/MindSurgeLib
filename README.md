@@ -106,9 +106,7 @@ MS1 expects a DLL file name without extension.  MS1 **conversion algorithm fails
 
 ## MS1 CRemoteLoadDll Quick Guide
 
-```
-
-```
+See [MindSurgeDemo](https://github.com/ionagisa/MindSurgeDemo).
 
 ---
 
