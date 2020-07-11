@@ -117,8 +117,8 @@ See [MindSurgeDemo](https://github.com/ionagisa/MindSurgeDemo).
 **1.** [Verification of the target process CFG mitigation policy with GetProcessMitigationPolicy API](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L195) <br>
 **2.** [Get the CFG bitmap base address](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L229) <br>
 **3.** ["Parallel" memory allocation in the target process.](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L264) <br>
-Conforming to the [limitations described](https://github.com/ionagisa/MindSurge/blob/master/README.md#tg1-and-setprocessvalidcalltargets-limitation), MS1 allocates a memory region to - in parallel - allocate enough states in the bitmap. <br>
-**4.** [DLL name to CFG bitmap states conversion](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L367) Conforming to the [limitations described](https://github.com/ionagisa/MindSurge/blob/master/README.md#tg1-and-setprocessvalidcalltargets-limitation) <br>
+Conforming to the [limitations described](https://github.com/ionagisa/MindSurge/blob/master/README.md#api), MS1 allocates a memory region to - in parallel - allocate enough states in the bitmap. <br>
+**4.** [DLL name to CFG bitmap states conversion](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L367) Conforming to the [limitations described](https://github.com/ionagisa/MindSurge/blob/master/README.md#api) <br>
 **5.** [Write DLL name in the bitmap](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L424) <br>
 **6.** [CreateRemoteThread on LoadLibrary](https://github.com/ionagisa/MindSurgeLib/blob/44a1b9fb8e1688b30e78e0eaed064544044b7853/src/ICRemoteLoadDll.cpp#L160) <br>
 
